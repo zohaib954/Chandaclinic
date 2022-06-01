@@ -1,7 +1,41 @@
 @charset "UTF-8";
+
+.logo-img{
+  height:120px;
+  width: 150px;
+}
+.logo-text{
+  color:#000080; 
+  font-family:Lucida Console (monospace);
+  font-size: 28px;
+  margin-left: -50px;
+}
+.footer-logo-text{
+  font-family:Lucida Console (monospace);
+
+  font-size: 22px;
+  margin-left: -50px;
+}
 .service-img{
   width: 600px;
 }
+.flex-butt{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-toggler{
+  margin: 10px;
+}
+@media (max-width: 600px) {
+  .logo-img{
+    height: 80px;
+    width: 120px;
+  }
+  .logo-text{
+    font-size: 21px;
+    margin-left: -40px;
+  }
+  }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
